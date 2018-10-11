@@ -19,8 +19,8 @@ export default class BolosScreen extends React.Component {
 
     this.state = {
       refeicoes: [
-        { value: 10, label: "Almoço" },
         { value: 15, label: "Café e Lanche" },
+        { value: 10, label: "Almoço" },
         { value: 20, label: "Lanche da Tarde/Jantar" },
         { value: 30, label: "11h" }
       ],

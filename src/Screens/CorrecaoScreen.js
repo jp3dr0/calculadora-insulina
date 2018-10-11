@@ -22,7 +22,7 @@ export default class CorrecaoScreen extends React.Component {
     const doseParam = props.navigation.getParam("dose", null);
 
     this.state = {
-      meta: 180,
+      meta: 160,
       correcao: 60,
       valorAtual: null,
       error: {
