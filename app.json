@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Calculadora de Insulina",
+    "description": "Calcular dose adequada de insulina",
+    "slug": "CalculadoraInsulina",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ff1744"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jp3dr0.insulina"
+    },
+    "primaryColor": "#ff1744",
+    "scheme": "calculadora-insulina",
+    "android": {
+      "package": "com.jp3dr0.insulina",
+      "versionCode": 1
+    }
+  }
+}
